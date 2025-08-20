@@ -20,8 +20,9 @@ print('-'*30)
 
 livro3.autor = 'Miguel de Cervantes'
 
-print('lista final de livros em library: ')
+print('lista final de livros em library:')
 print('-'*30)
 for livro in library:
     livro.exibir_informacoes()
 print('-'*30)
+
